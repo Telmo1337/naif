@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+}
+
+body {
+  cursor: default;
+  background-color: 
+  #f0f1f3;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 2s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+}
+
+input:focus {
+  outline: none;
+}
