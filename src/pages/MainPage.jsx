@@ -4,6 +4,7 @@ import About from "../components/About"
 import Budget from "../components/Budget"
 import AfterHero from "../components/AfterHero"
 import Services from "../components/Services"
+import ArrowUp from "../components/ArrowUp"
 
 
 const MainPage = () => {
@@ -15,6 +16,7 @@ const MainPage = () => {
       <Budget />
       <About />
       <Services />
+      <ArrowUp />
      
     </>
   )
