@@ -7,6 +7,7 @@ import Services from "../components/Services"
 import ArrowUp from "../components/ArrowUp"
 
 
+
 const MainPage = () => {
   return (
     <>

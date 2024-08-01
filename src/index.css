@@ -37,3 +37,25 @@ body {
 input:focus {
   outline: none;
 }
+
+.sticky-container {
+  height: 1000px; 
+}
+
+.sticky-section {
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 80px; 
+   
+  bottom: 20px; 
+}
+
+.sticky-section-other{
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 55px; 
+ 
+}
+
+
+
