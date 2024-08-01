@@ -26,42 +26,42 @@ const Services = () => {
         We work with different types of technology and methods; feel free to check all of them
       </p>
       <div className="grid grid-cols-3 gap-28 my-20 mx-4">
-        <div className="flex flex-col justify-center items-center border-l-0 border-t-0 border-r-2 border-b-2 p-4 border-black rounded-br-sm shadow-lg hover:scale-105 transition-all hover:bg-bruns hover:text-white duration-1000 ease-in-out">
+        <div className="services">
           <GiSmartphone size={88} />
           <h1 className="text-2xl pl-5 mt-4 font-semibold">Network Management</h1>
           <p className="text-lg py-10 font-normal text-start">
             The creation and management of a company’s social media presence is crucial nowadays! Customers are everywhere, and most of them are on social media
           </p>
         </div>
-        <div className="flex flex-col justify-center items-center border-l-0 border-t-0 border-r-2 border-b-2 p-4 border-black rounded-br-sm shadow-lg hover:scale-110 transition-all hover:bg-bruns hover:text-white duration-1000 ease-in-out">
+        <div className="services">
           <TbCrosshair size={88} />
           <h1 className="text-2xl pl-5 mt-4 font-semibold">ADS | Paid Traffic</h1>
           <p className="text-lg py-10 font-normal text-start">
             Website optimization to improve organic search ranking on Google and creation of online advertising and management of paid ranking services on Google
           </p>
         </div>
-        <div className="flex flex-col justify-center items-center border-l-0 border-t-0 border-r-2 border-b-2 p-4 border-black rounded-br-sm shadow-lg hover:scale-105 transition-all hover:bg-bruns hover:text-white duration-1000 ease-in-out">
+        <div className="services">
           <GiSwordBrandish size={88} />
           <h1 className="text-2xl pl-5 mt-4 font-semibold">Branding</h1>
           <p className="text-lg py-10 font-normal text-start">
             A branding project, when followed from its inception, is more than just designing a logo; it is a strategic process
           </p>
         </div>
-        <div className="flex flex-col justify-center items-center border-l-0 border-t-0 border-r-2 border-b-2 p-4 border-black rounded-br-sm shadow-lg hover:scale-105 transition-all hover:bg-bruns hover:text-white duration-1000 ease-in-out">
+        <div className="services">
         <FaCode size={88}/>
           <h1 className="text-2xl pl-5 mt-4 font-semibold">Web Design</h1>
           <p className="text-lg py-10 font-normal text-start">
           Development of institutional websites using current technologies
           </p>
         </div>
-        <div className="flex flex-col justify-center items-center border-l-0 border-t-0 border-r-2 border-b-2 p-4 border-black rounded-br-sm shadow-lg hover:scale-110 transition-all hover:bg-bruns hover:text-white duration-1000 ease-in-out">
+        <div className="services">
           <FaShoppingCart size={88} />
           <h1 className="text-2xl pl-5 mt-4 font-semibold">E-Commerce</h1>
           <p className="text-lg py-10 font-normal text-start">
           Development of conversion-oriented websites using current technologies and strategies
           </p>
         </div>
-        <div className="flex flex-col justify-center items-center border-l-0 border-t-0 border-r-2 border-b-2 p-4 border-black rounded-br-sm shadow-lg hover:scale-105 transition-all hover:bg-bruns hover:text-white duration-1000 ease-in-out">
+        <div className="services">
           <FaTasks size={88} />
           <h1 className="text-2xl pl-5 mt-4 font-semibold">Plano de Marketing</h1>
           <p className="text-lg py-10 font-normal text-start">
