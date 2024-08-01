@@ -2,6 +2,7 @@
 import img1 from '../assets/1.jpg';
 import img2 from '../assets/2.jpg';
 import img3 from '../assets/3.jpg';
+import img4 from '../assets/4.jpg';	
 import img5 from '../assets/5.jpg';
 import img6 from '../assets/6.jpg';
 import { useInView } from 'react-intersection-observer';
@@ -44,7 +45,7 @@ const AfterHero = () => {
           </span>
         </div>
         <div className="text-start">
-          <img src={img1} alt="" />
+          <img src={img4} alt="" />
           <span className="text-white mt-2 text-6xl font-medium bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
             We are here to help you grow
           </span>
