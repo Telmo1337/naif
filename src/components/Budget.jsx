@@ -1,15 +1,16 @@
+
 import { useInView } from 'react-intersection-observer';
 
 const Budget = () => {
   const { ref, inView } = useInView({
-    triggerOnce: false, // Set to true if you only want the animation to trigger once
-    threshold: 0.3, // Adjust the threshold based on when you want the animation to trigger
+    triggerOnce: true,
+    threshold: 0.2,
   });
 
   return (
     <section 
       ref={ref}
-      className={`bg-transparent transition-transform duration-500 ease-in-out ${inView ? 'transform translate-y-0' : 'transform translate-y-10'}`}
+      className={`my-20 bg-transparent transition-transform duration-500 ease-in-out overflow-x-hidden ${inView ? 'transform translate-y-0' : 'transform translate-y-10'}`}
     >
       <div className="py-8 px-4 mx-auto max-w-2xl lg:py-16">
         <span 
@@ -30,8 +31,8 @@ const Budget = () => {
             <div className="w-full">
               <input 
                 type="text" 
-                name="name" 
-                id="name" 
+                name="first-name" 
+                id="first-name" 
                 className="bg-transparent text-black text-lg block w-full py-2" 
                 placeholder="First name *" 
                 required 
@@ -40,8 +41,8 @@ const Budget = () => {
             <div className="w-full">
               <input 
                 type="text" 
-                name="name" 
-                id="name" 
+                name="last-name" 
+                id="last-name" 
                 className="bg-transparent text-black text-lg block w-full py-2" 
                 placeholder="Last name *" 
                 required 
@@ -50,8 +51,8 @@ const Budget = () => {
             <div className="w-full">
               <input 
                 type="text" 
-                name="name" 
-                id="name" 
+                name="business-email" 
+                id="business-email" 
                 className="bg-transparent text-black text-lg block w-full py-2" 
                 placeholder="Business email *" 
                 required 
@@ -60,8 +61,8 @@ const Budget = () => {
             <div className="w-full">
               <input 
                 type="text" 
-                name="name" 
-                id="name" 
+                name="phone-number" 
+                id="phone-number" 
                 className="bg-transparent text-black text-lg block w-full py-2" 
                 placeholder="Phone number" 
                 required 
@@ -70,8 +71,8 @@ const Budget = () => {
             <div className="w-full">
               <input 
                 type="text" 
-                name="name" 
-                id="name" 
+                name="how-did-you-hear-about-us" 
+                id="how-did-you-hear-about-us" 
                 className="bg-transparent text-black text-lg block w-full py-2" 
                 placeholder="How did you hear about us? *" 
                 required 
@@ -85,29 +86,29 @@ const Budget = () => {
             <div className="sm:col-span-2">
               <input 
                 type="text" 
-                name="name" 
-                id="name" 
+                name="project-goal" 
+                id="project-goal" 
                 className="bg-transparent text-black text-lg block w-full py-2" 
                 placeholder="What do you want to achieve? *" 
                 required 
               />
             </div>
             <div className="sm:col-span-2">
-              <label htmlFor="category" className="bg-transparent text-black text-xl font-medium block w-full py-2">
+              <label htmlFor="budget" className="bg-transparent text-black text-xl font-medium block w-full py-2">
                 What is your budget
               </label>
-              <select id="category" className="bg-transparent text-black text-md block w-full py-2">
-                <option selected>Select budget</option>
-                <option value="TV">Up to $50,000</option>
-                <option value="PC">$50,000 to $100,000</option>
-                <option value="GA">$100,000 to $250,000</option>
-                <option value="PH">Over $250,000</option>
-                <option value="PH">Cannot disclose</option>
+              <select id="budget" className="bg-transparent text-black text-md block w-full py-2">
+                <option value="">Select budget</option>
+                <option value="up-to-50000">Up to $50,000</option>
+                <option value="50000-to-100000">$50,000 to $100,000</option>
+                <option value="100000-to-250000">$100,000 to $250,000</option>
+                <option value="over-250000">Over $250,000</option>
+                <option value="cannot-disclose">Cannot disclose</option>
               </select>
             </div>
             <div className="sm:col-span-2">
               <textarea 
-                id="comment" 
+                id="project-description" 
                 rows="8"
                 className="px-2 w-full text-sm text-black bg-transparent block py-2"
                 placeholder="Tell us about your project *" 

@@ -12,17 +12,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 html {
   font-family: "Montserrat", sans-serif;
   color: #000000;
+  scroll-behavior: smooth;
+  
 }
 
 body {
   cursor: default;
   background-color: 
   #f0f1f3;
+  contain:paint;
+  
 }
 
 .fade-in {
@@ -57,9 +62,20 @@ input:focus {
  
 }
 
+
+
 @layer components {
   .services {
     @apply flex flex-col justify-center items-center  p-4 border-black  hover:scale-105 transition-all hover:bg-bruns hover:text-white duration-200 ease-in-out
   }
+
+  .underline-afterhero {
+    @apply text-white mt-2 text-7xl font-medium bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat hover:bg-[length:100%_2px] transition-all duration-500 ease-out
+  }
+
+  .opacity { 
+    @apply hover:opacity-65 transition-all ease-in-out duration-700 hover:-translate-y-6
+  }
 }
+
 

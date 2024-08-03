@@ -17,13 +17,13 @@ const AfterHero = () => {
     <div className="bg-black">
       <div
         ref={ref}
-        className={`w-full max-w-9xl px-6 py-20 pb-20 mx-auto mb-10 gap-16 grid grid-cols-1 md:grid-cols-3 fade-in ${inView ? 'visible' : ''}`}
+        className={`w-full max-w-screen-xl px-6 py-20 pb-20 mx-auto mb-10 gap-16 grid grid-cols-1 md:grid-cols-3 fade-in ${inView ? 'visible' : ''}`}
       >
         <div className='sticky-container'>
           <div className="text-start sticky-section">
-            <img src={img5} alt="" />
+            <img src={img5} alt="" className="opacity" />
 
-            <span className="text-white mt-2 text-7xl font-medium bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+            <span className="underline-afterhero">
               Build your brand with us
             </span>
 
@@ -31,38 +31,38 @@ const AfterHero = () => {
         </div>
 
         <div className="text-start">
-          <img src={img1} alt="" />
-          <span className="text-white mt-2 text-6xl font-medium bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+          <img src={img1} alt=""className="opacity" />
+          <span className="underline-afterhero">
             Get inspired by our work
           </span>
         </div>
         
           <div className="text-start">
-            <img src={img3}  />
-            <span className="text-white mt-2 text-7xl font-medium bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+            <img src={img3}  className="opacity"/>
+            <span className="underline-afterhero">
               We believe in your ideas and we make them happen
             </span>
           </div>
       
         <div className='sticky-container'>
           <div className="text-start sticky-section">
-            <img src={img2} />
-            <span className="text-white mt-2 text-7xl font-medium bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+            <img src={img2}className="opacity" />
+            <span className="underline-afterhero">
               The road to success is just a click away
             </span>
           </div>
         </div>
 
         <div className="text-start">
-          <img src={img4} alt="" />
-          <span className="text-white mt-2 text-6xl font-medium bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+          <img src={img4} alt=""className="opacity" />
+          <span className="underline-afterhero">
             We are here to help you grow
           </span>
         </div>
         <div className='sticky-container'>
           <div className="text-start sticky-section-other">
-            <img src={img6} alt="" />
-            <span className="text-white mt-2 text-6xl font-medium bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+            <img src={img6} alt=""className="opacity" />
+            <span className="underline-afterhero">
               Connecting people through technology
             </span>
           </div>

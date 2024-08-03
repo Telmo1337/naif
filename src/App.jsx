@@ -1,5 +1,6 @@
 import MainPage from "./pages/MainPage"
 
+import GoToTop from "./components/GoToTop";
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
      <MainPage />
+     <GoToTop />
     </>
   )
 }

@@ -21,7 +21,7 @@ const Hero = () => {
         variants={fadeIn}
         initial="hidden"
         animate="visible"
-        className="hero h-screen flex items-center justify-center mb-8"
+        className="hero h-screen flex items-center justify-center mb-8 "
       >
         <div className="flex flex-col items-end justify-center h-full px-4 sm:px-6 md:px-8 lg:px-10">
           <h1 className='text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-medium text-right lg:w-4/5 md:w-10/12 sm:w-10/12 mt-20 sm:mt-24 md:mt-28 lg:mt-36'>
