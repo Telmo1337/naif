@@ -87,12 +87,12 @@ const Services = () => {
           </p>
         </div>
       </div>
-      <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 md:mb-8">
+      <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">
         and many{" "}
         <span className="text-5xl md:text-6xl lg:text-8xl text-bruns bg-left-bottom bg-gradient-to-r from-bruns to-bruns bg-[length:0%_2px] bg-no-repeat hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
           more
         </span>{" "}
-        services <br />. <br /> . <br /> . <br /> . <br /> . <br /> . 
+        services 
       </h1>
     </motion.div>
   );
