@@ -1,7 +1,7 @@
 
 import { Parallax } from 'react-parallax';
 import { motion } from 'framer-motion';
-import bghero from '../assets/herobg.svg';
+import bghero from '../assets/test2.jpg';
 
 const fadeIn = {
   hidden: { opacity: 0 },
@@ -16,7 +16,7 @@ const fadeIn = {
 
 const Hero = () => {
   return (
-    <Parallax bgImage={bghero} strength={200}>
+    <Parallax bgImage={bghero} strength={400}  >
       <motion.div
         variants={fadeIn}
         initial="hidden"

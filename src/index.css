@@ -4,30 +4,24 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 *,
 *::before,
 *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 html {
   font-family: "Montserrat", sans-serif;
   color: #000000;
   scroll-behavior: smooth;
-  
 }
 
 body {
   cursor: default;
-  background-color: 
-  #f0f1f3;
-  contain:paint;
-  
+  background-color: #ffffff;
+  contain: paint;
 }
 
 .fade-in {
@@ -44,38 +38,42 @@ input:focus {
 }
 
 .sticky-container {
-  height: 1000px; 
+  height: auto; /* Adjusted to auto */
 }
 
 .sticky-section {
   position: -webkit-sticky; 
   position: sticky;
-  top: 80px; 
-   
+  top: 80px;
   bottom: 20px; 
 }
 
-.sticky-section-other{
+.sticky-section-other {
   position: -webkit-sticky; 
   position: sticky;
-  top: 55px; 
- 
+  top: 55px;
 }
 
 
 
 @layer components {
   .services {
-    @apply flex flex-col justify-center items-center  p-4 border-black  hover:scale-105 transition-all hover:bg-bruns hover:text-white duration-200 ease-in-out
+    @apply flex flex-col justify-center items-center p-4 border-black hover:scale-105 transition-all hover:bg-bruns hover:text-white duration-200 ease-in-out;
   }
 
   .underline-afterhero {
-    @apply text-white mt-2 text-7xl font-medium bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat hover:bg-[length:100%_2px] transition-all duration-500 ease-out
+    @apply text-white mt-2 text-xl md:text-3xl lg:text-5xl font-medium bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat hover:bg-[length:100%_2px] transition-all duration-500 ease-out;
   }
 
   .opacity { 
-    @apply hover:opacity-65 transition-all ease-in-out duration-700 hover:-translate-y-6
+    @apply hover:opacity-65 transition-all ease-in-out duration-700 hover:-translate-y-6;
+  }
+
+  .text-tech-h1 {
+    @apply text-black  text-xl font-semibold mt-4;
+  }
+
+  .text-tech-p {
+    @apply text-black text-opacity-90 text-lg font-normal mt-2;
   }
 }
-
-
