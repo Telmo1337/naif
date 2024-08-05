@@ -44,7 +44,7 @@ export default function Navbar() {
             variants={fadeIn}
             initial="hidden"
             animate="visible"
-            className={`fixed top-0 z-50 w-full transition-all duration-300 ${backgroundColor}`}
+            className={`sticky top-0 z-50 w-full transition-all duration-300 ${backgroundColor}`}
         >
             <div className="flex items-center justify-between px-5 lg:mx-3 md:mx-5 lg:px-5 xl:px-7 py-4">
                 <a
@@ -92,7 +92,7 @@ export default function Navbar() {
                     ))}
                     <a
                         className={`block relative group transition-all duration-300 ease-in-out px-2 py-2 uppercase font-medium rounded-sm hover:bg-bruns hover:text-white ${backgroundColor === 'bg-black' ? 'text-white' : 'text-black'}`}
-                        href="#contact"
+                        href=""
                     >
                         <span className={`bg-left-bottom bg-gradient-to-r from-bruns to-bruns bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out ${backgroundColor === 'bg-black' ? 'text-white' : 'text-black'}`}>
                             Contact us
