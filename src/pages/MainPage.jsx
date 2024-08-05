@@ -4,9 +4,12 @@ import About from "../components/About"
 import Budget from "../components/Budget"
 import AfterHero from "../components/AfterHero"
 import Services from "../components/Services"
-import GoToTop from "../components/GoToTop"
 import ClientSay from "../components/ClientSay"
 import Tech from "../components/Tech"
+import GetInTouch from "../components/GetInTouch"
+import Faq from "../components/Faq"
+import Footer from "../components/Footer"
+
 
 
 
@@ -20,9 +23,11 @@ const MainPage = () => {
       <Budget />
       <About />
       <Services />
-      <GoToTop />
       <ClientSay />
       <Tech />
+      <GetInTouch />
+      <Faq />
+      <Footer />
     </>
   )
 }
